@@ -1,0 +1,110 @@
+body {
+    background-image: url("https://img.freepik.com/free-photo/gym-composition-with-weights_23-2147913706.jpg?w=740&t=st=1677679565~exp=1677680165~hmac=ebf940ec8ef878ba2010907f6b92973493e84d3c32ba9eee3f0f089d153091bd");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+#titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+
+div {
+    border: 3px solid rgb(143, 141, 141);
+    padding: 8px;
+    border-radius: 25px;
+    margin: 10px auto;
+    position: relative;
+    width: 60%;
+    
+    
+    
+  }
+
+
+.divisiones {
+    opacity: 0.5;
+    
+}
+
+.divisiones:hover {
+    opacity: 1.0;
+    transition-delay: width 2s;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+
+
+
+  #imagen {
+    text-align: center
+    
+
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  .texto {
+    font-family: 'Roboto', sans-serif;
+    text-indent: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 3px;
+    display: none;
+  }
+
+  .alineacion {
+    padding: 70px;
+    position: relative;
+
+  }
+
+  .subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(19, 18, 18);
+    
+  }
+
+  h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: blueviolet;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #miBoton {
+    border-radius: 25px;
+  }
+
+  #mostrar {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(73, 94, 214);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(14, 13, 13);
+  }
+
+  #ocultar {
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(241, 241, 243);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(8, 8, 8);
+  }

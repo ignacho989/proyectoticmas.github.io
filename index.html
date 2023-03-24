@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+    
+</head>
+<body>
+    <div id="imagen">
+        <img src="https://randomuser.me/api/portraits/men/8.jpg" alt="Maurice">
+    </div>
+    <div>
+        <h1 id="titulo">Maurice Holland</h1>
+    
+    
+    </div>
+    <div class="divisiones">
+        <p class="subtitulo">Formación</p>
+        <ul id="formacion" class="texto">
+            <li>Secundario completo</li>
+            <li>Tecnico Mecánico</li>
+            <li>Idioma: Ingles Tecnico</li>
+        </ul>
+
+        <input id="mostrar" type="button" value="Mostrar"
+        onclick="document.getElementById('formacion').style.display='block'">
+        <input id="ocultar" type="button" value="Ocultar" 
+        onclick="document.getElementById('formacion').style.display='none'">
+        
+
+    </div>
+    <div class="divisiones">
+        <p class="subtitulo">Habilidades</p>
+        <ul id="habilidades" class="texto">
+            <li>Inyeccion Diesel</li>
+            <li>Tren Delantero</li>
+            <li>Caños de Escape</li>
+            <li>Rectificaciones</li>
+        </ul>
+
+        <input id="mostrar" type="button" value="Mostrar"
+        onclick="document.getElementById('habilidades').style.display='block'">
+        <input id="ocultar" type="button" value="Ocultar" 
+        onclick="document.getElementById('habilidades').style.display='none'">
+        
+        
+    </div>
+    <div class="divisiones">
+        <p class="subtitulo">Experiencia Laboral</p>
+
+
+        <ol id="exp" class="texto">
+            <li>F1 Neumáticos: Tren delantero, Alineación y Balanceo. Jefe de espirales (2022 - 2023)</li>
+            <li>Rectificadora lo de Sandro: Tapas de Cilindro, Blocks, Maestro de Cojinetes (2020 - 2022</li>
+            <li>Inyeccion la Pichi-Cata: Encendido, inyectores (2018 - 2020)</li>
+            <li>Cañete Caños de Escape: Soldaduras (2016 - 2018)</li>
+        </ol>
+        
+        <input id="mostrar" type="button" value="Mostrar"
+        onclick="document.getElementById('exp').style.display='block'">
+        <input id="ocultar" type="button" value="Ocultar" 
+        onclick="document.getElementById('exp').style.display='none'">
+        
+                
+
+    </div>
+    <div class="divisiones">
+        <p class="subtitulo">Contacto</p>
+        <p id="contacto" class="texto">maurice.holland@example.com
+        7023 Dogwood Ave
+        (518) 294-9829</p>
+
+        <input id="mostrar" type="button" value="Mostrar"
+        onclick="document.getElementById('contacto').style.display='block'">
+        <input id="ocultar" type="button" value="Ocultar" 
+        onclick="document.getElementById('contacto').style.display='none'">
+        
+
+    </div>
+    <button id="miBoton">Clickeame</button>
+    <script>
+        document.getElementById("miBoton").addEventListener("click", function() {
+          alert("Gracias!!!");
+        });
+    </script>
+    
+    
+
+    
+</body>
+</html>
